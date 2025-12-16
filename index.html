@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
+    
     <!--Use of Flex child and CSS in Tailwind -->
     <ul class="bg-black text-white m-0 flex [&>*]:flex">
         <li><a class="p-3  hover:bg-zinc-700" href="#">Home</a></li>
@@ -14,6 +15,9 @@
         <li><a class="p-3  hover:bg-zinc-700" href="#">Contact</a></li>
         <li><a class="p-3  hover:bg-zinc-700" href="#">Blog</a></li>
     </ul>
+
+
+    
     <!---Colors in Tailwind -->
     <h1 class="text-3xl font-bold underline text-blue-500 m-10">
         Hello, Tailwind CSS!    
@@ -22,7 +26,17 @@
     <p class="text-blue-100 mx-10">learning Tailwind CSS is fun and exciting! </p>
     <p class="text-blue-500 mx-10">learning Tailwind CSS is fun and exciting! </p>
     <p class="text-blue-900 mx-10">learning Tailwind CSS is fun and exciting! </p>
+
+
+
+    <!--Button link for signup -->
+    <div class="m-10">
+    <a href="signup.html" class="bg-blue-500 text-white p-2 rounded hover:bg-blue-700">Sign Up</a>
+    </div>
     <!---Typography in Tailwind -->
+
+
+
     <h1 class="text-3xl font-bold underline m-10">
         Hello, Tailwind CSS!    
     </h1>
@@ -39,5 +53,39 @@
         <p class="text-center font-bold text-red-500">Border Example</p>
         
     </div>
+    <!--Padding and Margin in Tailwind -->
+    <div class="p-4 m-4 bg-yellow-500">
+        <p class="text-center font-bold text-red-500">Padding Example</p>
+    </div>
+    <div class="m-8 p-4 bg-purple-500 block w-48 ">
+        <p class="text-center font-bold text-white">Margin Example</p>
+    </div>
+    <!--Min Width and Max Width in Tailwind -->
+    <div class="min-w-[200px] max-w-[400px] bg-gray-200 p-4 m-4">
+        <p class="text-center font-bold text-black">Min Width and Max Width Example</p>
+    </div>
+    <p class="m-10 bg-gray-200 min-width-[200px]">Resize the browser window to see the effect of min-width and max-width.</p>
+    <p class="m-10 max-w-[400px] bg-gray-200">This box will not be smaller than 200px and not larger than 400px.</p>
+    <!--Min and Max height in Tailwind-->
+    <div class="min-h-[100px] max-h-[200px] bg-gray-300 p-4 m-4">
+        <p class="text-center font-bold text-black">Min Height and Max Height Example</p>
+    </div>
+    <p class="m-10 bg-gray-300 min-h-[100px]">This box has a minimum height of 100px.</p>
+    <p class="m-10 bg-gray-300 max-h-[200px]">This box has a maximum height of 200px.</p>
+    <p class="h-dvw bg-gray-300">This element has a height of 100% of the viewport height.</p>
+    <!--Size Class in Tailwind-->
+    <div class="size-[150px] bg-gray-400 m-4">
+        <p class="text-center font-bold text-black">Size Class Example</p>  
+    </div>
+    <div class="size-[50%] bg-gray-400 m-4">
+        <p class="text-center font-bold text-black">Size Class Example</p>
+    </div>
+    <!--Position in Tailwind-->
+    <div class="bg-red-200 size-52 absolute bottom-0 p-4">
+        <p class="text-center font-bold text-black">Position Example</p>
+    </div>
+
+
+
 </body>
 </html>
